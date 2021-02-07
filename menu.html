@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Pizza Town</title>
+<link rel = "icon" href =  "pizzaicon.jpg" type = "image/gif"> 
+
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+</head>
+<body>
+
+    <ul id="menu">
+        <li><a href="index.php">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="track.html">Track order</a></li>
+        
+        <li><a href="locations.html">Locations</a></li>
+      
+
+
+
+    </ul>
+
+<br>
+        <div class="wrap">
+            <h1 id="well">We offer:</h1>
+
+        <div class="cent">
+        <div class="options"><img src="neapolitan.jpeg" alt="nepolitana" width="220" height="125">
+            <div id='help'><br><Br><br><span>Neapolitan Pizza</span></div><div id="price"><span>
+        
+        8,95$</span></div></div>
+        
+        <div class="options"><img src="chicago.jpg" alt="nepolitana" width="220" height="125">
+            <div id='help'><br><Br><br><span>Chicago Pizza</span></div><div id="price"><span>
+        
+        8,95$</span></div></div>
+        
+        <div class="options"><img src="newyork.jpeg" alt="nepolitana" width="220" height="125">
+            <div id='help'><br><Br><br><span>New York-Style Pizza</span></div><div id="price"><span>
+        
+        8,95$</span></div></div>
+        
+        <div class="options"><img src="sicilian.jpeg" alt="nepolitana" width="220" height="125">
+            <div id='help'><br><Br><br><span>Sicilian Pizza</span></div><div id="price"><span>
+        
+        8,95$</span></div></div>
+        <div class="options"><img src="greek.jpg" alt="nepolitana" width="220" height="125">
+            <div id='help'><br><Br><br><span>Greek Pizza</span></div><div id="price"><span>
+        
+        8,95$</span></div></div>
+        
+        <div class="options"><img src="california.jpg" alt="nepolitana" width="220" height="125">
+            <div id='help'><br><Br><br><span>California Pizza</span></div><div id="price"><span>
+        
+        8,95$</span></div></div>
+        
+        <div class="options"><img src="detroit.jpeg" alt="nepolitana" width="220" height="125">
+            <div id='help'><br><Br><br><span>Detroit Pizza</span></div><div id="price"><span>
+        
+        8,95$</span></div></div>
+        
+        <div class="options"><img src="stlouis.jpg" alt="nepolitana" width="220" height="125">
+            <div id='help'><br><Br><br><span>St. Louis Pizza</span></div><div id="price"><span>
+        
+        8,95$</span></div></div>
+
+        <div class="options"><img id='spec' src="coke.png" alt="coke" width="160" height="125">
+            <div id='help'><br><Br><br><span>Coke</span></div><div id="price"><span>
+        
+        3,95$</span></div></div>
+
+        <div class="options"><img  id='spec' src="fanta.png" alt="fanta" width="160" height="125">
+            <div id='help'><br><Br><br><span>Fanta</span></div><div id="price"><span>
+        
+        3,95$</span></div></div>
+        <div class="options"><img src="sprite.png" alt="sprite" width="230" height="125">
+            <div id='help'><br><Br><br><span>Sprite</span></div><div id="price"><span>
+        
+        2,95$</span></div></div>
+
+        <div class="options"><img  src="schweppes.png" alt="schweppes" width="230" height="125">
+            <div id='help'><br><Br><br><span>Schweppes</span></div><div id="price"><span>
+        
+        4,95$</span></div></div>
+        <div class="options"><img id='spec' src="cappyo.png" alt="capy" width="140" height="125">
+            <div id='help'><br><Br><br><span>Cappy Orange</span></div><div id="price"><span>
+        
+        3,95$</span></div></div>
+        </div>
+        <br>
+        <button id="order">Make an order</button>
+</div>
+
+           
+        <script type="text/javascript">
+            document.getElementById("order").onclick = function () {
+                location.href = "order.php";
+            };
+        </script>
+</body>
+
+
+</html>
+

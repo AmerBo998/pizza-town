@@ -1,0 +1,878 @@
+
+body{
+   
+    background-image: url("https://images.pexels.com/photos/2918521/pexels-photo-2918521.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+
+.wrap{
+
+    
+    width:100%;
+    margin: 0 auto;
+}
+
+
+
+.cent{
+     
+    width:70%;
+    margin:0 auto;
+}
+
+
+
+.geninfo{
+
+
+        width:250px;
+        height:25px;
+        border-radius: 5px;
+
+
+}
+
+#orderbtn{
+
+        width:150px;
+       display: block;
+       margin: 0 auto;
+        background-color: red;
+        height:35px;
+        font-size: 15px;
+        border:none;
+        font-weight: bolder;
+        cursor: pointer;
+        font-family: helvetica;
+
+}
+
+#orderbtn:hover{
+    background-color: yellow;
+}
+
+#generalinfo{
+
+  
+    border:2px solid white;
+    width:50%;
+    height: 400px;
+    border-radius: 25px;
+    box-shadow: 4px 0px black, 4px 0px black;
+    background-color: black;
+    opacity: 80%;
+        text-align: center;
+    margin:0 auto;
+}
+
+#submit_o{
+
+display: inline-block;
+width:150px;
+text-align: center;
+padding:5px;
+font-family: helvetica;
+font-size: 18px;
+color:yellow;
+font-weight: bolder;
+text-shadow: 2px 0px black, 2px 0px black;
+ 
+
+
+}
+
+#dat{
+
+        
+        background-color: white;
+        border:2px solid black;
+        
+        border-radius: 10px;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding:2px;
+    margin:0 auto;
+    width:330px;
+
+}
+
+
+.r_show{
+        display:inline-block;
+        background-color: transparent;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border:1px solid black;
+       margin:0 auto;
+       
+         
+
+
+}
+
+#rec_div{
+
+        font-size: 15px;
+        background-color: rgb(165, 157, 157);
+    text-align: center;
+}
+
+h4{
+
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;color:white;text-shadow: 0 0 3px black, 0 0 5px black;
+
+}
+
+
+
+#rec_div{
+            word-break: break-all;
+        overflow-y: scroll;
+
+
+}
+
+
+#tbls{
+
+
+    background-color: white;
+    text-align:center;color:black;font-family:helvetica;
+    text-shadow: 2px 2px 8px white;font-weight: bolder;
+    border:2px solid black;
+}
+
+
+h1{
+
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: 110px;
+    color:yellow;
+    text-shadow: 0 0 3px black, 0 0 5px green;
+    letter-spacing: 5px;
+
+}
+
+#menu{
+
+    list-style-type: none;
+    background-color: rgba(116, 103, 103,0.6);
+    border: 1px solid white;
+    border-radius: 10px;
+    width:fit-content;
+    padding:10px;
+    margin:0 auto;
+}
+
+
+#NYC,#LA,#CH,#BO{
+    display: inline-block;
+    width:320px;
+    height:150px;
+    border-left: 5px groove blue;
+    border-radius: 10px;
+    background-color: rgb(236, 220, 174);
+    white-space: pre;
+    text-align: center;
+    cursor: pointer;
+}
+
+#NYC:hover, #LA:hover, #CH:hover, #BO:hover{
+    background-color: rgb(235, 195, 121);
+}
+
+
+.login_form{
+
+    width:fit-content;
+    background-color: rgba(116, 103, 103,0.9);
+    border:1px solid black;
+    border-radius: 10px;
+     margin: 0 auto;
+    margin-top: 5%;;
+    text-align: center;
+    padding:20px;
+}
+
+
+.admin_opt {
+
+    background-color: rgba(34, 31, 31, 0.9);
+     display: block;
+     width:100%;
+       float: right;
+        padding:0;
+        padding-bottom: 5px;
+     
+      
+
+}
+
+.l_outbtn{
+
+    display:inline;
+    background-color: transparent;
+    
+    font-family: arial;
+    font-size: 20px;
+    color: yellow;
+    text-shadow: 0 0 3px black, 0 0 5px green;
+    cursor: pointer;
+   font-weight: bold;
+    text-decoration: none;
+    border:none;
+    width:100%;
+
+}
+
+
+
+.admin_opt .l_outbtn:hover{
+
+    background-color: rgba(34, 31, 31, 0.9);
+    color:red;
+}
+
+.admin_div{
+   
+    text-align: center;
+     
+    border-radius: 5px;
+    float:right;
+    height:auto;
+  
+}
+
+.admin_options{
+
+   display: none;
+     
+    background-color:rgb(146, 114, 7) ;
+}
+
+.login:hover ~ .admin_options{
+display: block;
+}
+
+.admin_options:hover{
+
+    display: block;
+}
+ 
+
+
+.emp_info{
+    display: inline-block;
+    width:200px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    color:white;
+    font-weight: bold;
+    background-color: blue;
+}
+
+.emp_info:hover{
+
+    color:white;
+    cursor:default;
+
+
+}
+
+.emp{
+
+    border:2px solid black;
+    background-color: rgba(70, 54, 54, 0.9);
+  
+    width:fit-content;
+
+}
+
+
+.emp_wrap{
+
+    width:100%;
+    
+  display: flex;
+
+
+}
+
+.emp_wrap > .emp_form{
+
+   margin-left:20px;
+
+}
+
+.emp_form{
+
+        border:2px solid black;
+        background-color: rgba(116, 103, 103,0.9);
+        width: 300px;
+        padding:20px;
+        height:300px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.log_submit{
+
+    display: block;
+    padding:10px;
+    border:1px solid rgb(217, 255, 0);
+    background-color: brown;
+    margin:0 auto;
+
+
+}
+#uname, #pass{
+
+   margin: 10px;
+
+
+}
+.log_label{
+
+    display: inline-block;
+    width:100px;
+}
+
+h3{
+
+    font-size: 25px;
+    font-weight: bold;
+    font-family: arial;
+    color:yellow;
+    text-shadow: 0 0 3px black, 0 0 5px green;
+    text-align: center;
+}
+
+li,a{
+
+    display:inline;
+    padding:10px;
+    font-family: arial;
+    font-size: 20px;
+    color: yellow;
+    text-shadow: 0 0 3px black, 0 0 5px green;
+    cursor: pointer;
+    font-weight: 900;
+    text-decoration: none;
+    
+
+}
+
+
+    li:hover, a:hover{
+
+            color:red;
+
+
+    }
+
+#social{
+
+    bottom:0;
+    left:0;
+    position: fixed;
+    width:100%;
+    height:55px;
+    background-color: rgba(116, 103, 103,0.6);
+    border-top: 1px solid white;
+     
+}
+
+#face, #insta{
+
+        
+        filter: grayscale(100%);
+        transition: width 1s, height 1s;
+}
+
+
+#face:hover, #insta:hover{
+
+
+    filter: grayscale(0%);
+ 
+   width:60px;
+   height:60px;
+}
+
+
+#about{
+
+    white-space: pre;
+    font-size: 18px;
+    font-family: helvetica;
+    background-color: white;
+    opacity: 80%;
+    border:2px solid black;
+    border-radius: 20px;
+
+}
+.options{
+    display:inline-block;
+    border:1px solid black;
+    width:100%;
+     
+    height:127px;
+    border-radius: 15px;
+    box-shadow: 0px 2px black, 2px 2px black, 5px 2px black, 2px 2px black;
+    padding:5px;
+  
+background-color: white;
+
+}
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: white; 
+  }
+   
+ 
+  ::-webkit-scrollbar-thumb {
+    background: red; 
+  }
+  
+ 
+  ::-webkit-scrollbar-thumb:hover {
+    background: yellow; 
+  }
+.options1{
+
+    display:inline-block;
+    border:1px solid black;
+    width:700px;
+    margin-left: 1%;
+    height:127px;
+    border-radius: 15px;
+    box-shadow: 0px 2px black, 2px 2px black, 5px 2px black, 2px 2px black;
+    padding:5px;
+    margin: 5px;;
+background-color: white;
+}
+
+.addb:hover{
+    background-color: yellow;
+    color:black;
+}
+
+
+.order_wrap{
+
+    width:100%;
+  
+    overflow:hidden;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.order_wrap > #menu_select{
+
+
+    margin:10px;
+}
+
+
+
+.order_wrap > #receipt{
+
+    margin:20px;
+}
+
+
+#menu_select{
+
+    border: 2px solid black;
+    width:750px;
+    height:440px;
+    overflow-y: scroll;
+    background-color: whitesmoke;
+    padding:10px;
+}
+
+
+#receipt{
+
+    float:right;
+    
+    width:300px;
+    height:auto;
+    background-color: white;
+    border: 2px solid black;
+    margin: 30px;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+
+#orders{
+    width:285px;
+    height:230px;
+    overflow-y: scroll;
+    font-weight: normal;
+    margin-left: 0%;;
+    margin-top: -9%;
+}
+
+
+
+
+
+img{
+
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+span{
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 22px;
+    font-family: arial;
+    color:black;
+    margin-left: 5%;
+    
+  
+
+}
+
+
+
+#pizzasp{
+
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 22px;
+    font-family: arial;
+    color:black;
+    margin-left: 5%;
+    
+  width:230px;
+
+}
+
+#well{
+
+    margin-top: 50px;
+    font-size: 55px;
+}
+
+#lilhelp{
+
+
+    display: none;
+}
+
+
+#price{
+
+    white-space: pre;
+    float: right;
+    margin-right: 5%;
+    border-left: 2px solid black;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.price1{
+    white-space: pre;
+    float: right;
+    margin-right: 5%;
+  
+    height: auto;
+    margin-top: -10%;
+
+}
+
+
+#help{
+    
+    width:fit-content;
+    margin-top: -10%;
+    margin-left: 25%;
+    position: absolute;
+    white-space: pre;
+}
+
+#help1{
+
+    width:fit-content;
+    margin-top: -20%;
+    margin-left: 35%;
+    
+ 
+    white-space: pre;
+}
+
+#map{
+  
+    width:850px;
+    height: 400px;
+    margin-left: 20%;
+  
+}
+
+
+
+
+
+#delivering_table{
+
+
+        float:left;
+
+}
+
+.addb{
+
+        border:1px solid black;
+        background-color: red;
+        color:white;
+        width:60px;
+        height:35px;
+        border-radius: 20px;
+        font-weight: bolder;
+        box-shadow: 2px 0px black, 2px 0px black;
+        cursor: pointer;
+        outline: none;
+}
+
+img{
+
+    border:none;
+}
+#order{
+        display: block;
+        padding:4px;
+        font-size: 28px;
+        font-family: Arial;
+        font-weight: bold;
+        background-color: yellow;
+        color:white;
+        border: 10px double white;
+        width:290px;
+        height:60px;
+        border-radius: 20px;
+       margin:0 auto;
+        outline: none;
+        cursor: pointer;
+        
+        text-shadow: 0 0 3px black, 0 0 5px red;
+}
+
+ 
+
+.dash_wrap{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+         
+        text-align: center;
+    }
+
+
+    .login{
+
+        float:right;
+        margin-top:-50px;
+        border:1px solid black;
+        background-color: rgba(116, 103, 103,0.6);
+        border-radius: 10px;
+
+    }
+
+#tableHolder{
+
+
+     margin:0 auto;
+    background-color: transparent;
+    overflow: hidden;
+    width:fit-content;
+}
+#order:hover{
+
+    background-color: red;
+
+
+}
+
+
+#guide{
+    font-size: 18px;
+    color:black;
+    text-shadow: 0 0 5px red, 0 0 10px white;
+}
+
+
+#track{
+
+    width:fit-content;
+    padding: 30px;
+    height:auto;
+    background-color:rgba(116, 103, 103,0.6);
+    border:2px solid black;
+    border-radius:20px;
+    margin:0 auto;
+
+
+
+
+}
+
+
+.tr_code{
+
+    color: black;
+    text-shadow: 0px 0px 10px rgb(146, 114, 7);
+
+}
+
+
+
+.loc_wrap{
+
+        
+        display: block;
+         height:auto;
+        margin:0 auto;
+        width:fit-content
+}
+
+@media screen and (max-width: 1000px) {
+
+         
+
+
+   
+ 
+    #generalinfo{
+
+            width:90%;
+            
+
+    }
+
+    #submit_o, .geninfo{
+
+
+        font-size: 25px;
+        width:40%;
+    }
+
+
+            #NYC, #LA, #CH, #BO{
+
+                    width:45%;
+                    margin:10px;
+
+            }
+
+            #map{
+
+                margin: 0 auto;
+            }
+
+
+        .order_wrap{
+
+
+            flex-direction: column;
+        }
+
+
+            #menu_select{
+
+                width:100%;
+                height:350px;
+            }
+
+            .options1{
+                display: block;
+                width:90%;
+                margin:0 auto;
+            }
+
+            #receipt{
+
+                margin-right: 30%;
+
+            }
+
+h1{
+    font-size: 35px;
+}
+
+             #well, #order{
+
+                font-size: 25px;
+
+            }
+               .home_wrap{
+                    text-align: center;
+                    
+               }
+                #order{
+
+                    margin:0 auto;
+                }
+
+
+#about{
+        
+        width:97%;
+        height:auto;
+        font-size: 15px;
+        text-align: center;
+     white-space: pre-line;
+        
+}
+
+
+.emp_wrap{
+
+    flex-direction: column;
+
+}
+
+
+.emp{
+
+        width:110%;
+
+}
+
+ 
+}

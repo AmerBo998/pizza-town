@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Pizza Town</title>
+<link rel = "icon" href =  "pizzaicon.jpg" type = "image/gif"> 
+
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhKSHH2AoL_lYu8867GaMRMRHOiwzJnyE">
+    </script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <ul id="menu">
+        <li><a href="index.php">Home</a></li>
+      <li><a href="about.html"></a>About</li>
+      <li><a href="track.html">Track order</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        
+    </ul>
+
+
+<h1 style="margin-top: 50px;;">Our locations<br><p id="guide"><strong>(click to see on the map)</strong></p></h1>
+
+           <div class="loc_wrap">
+<div id="NYC" onclick="setMap(this);">
+   <h3>New York City</h3><i><b>Midtown Manhattan</b></i>
+</div>
+<div id="LA" onclick="setMap(this);">
+    <h3>Los Angeles</h3><i><b>5855 W Century Blvd</b></i>
+</div>
+<div id="CH" onclick="setMap(this);">
+    <h3>Chicago</h3><i><b>706-700 N State St</b></i>
+</div>
+<div id="BO" onclick="setMap(this);">
+    <h3>Boston</h3><i><b>425 Summer St</b></i>
+</div></div>
+<br><Br>
+
+
+
+
+
+
+       
+          <div id="map"></div>
+        
+
+
+           
+</body>
+
+
+</html>
+
