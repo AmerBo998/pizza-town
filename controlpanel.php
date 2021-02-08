@@ -60,6 +60,17 @@ header( "location: index.php" );
                     
 
         }
+                           
+                            #gtd{
+
+background-color:white;
+border:1px solid black;
+text-shadow:none;
+color:black;
+padding:10px;
+border-radius:10px;
+
+}
 
 
         td{
@@ -98,7 +109,8 @@ header( "location: index.php" );
 
        
 
-    </ul>
+    </ul><br>
+                           <a href='employees.php' id='gtd'>Go to employees page</a>
     
 
 
