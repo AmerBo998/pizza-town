@@ -17,7 +17,7 @@ else if(isset($_SESSION['username']) && ($_SESSION['userty'])=='employee'){
     echo "<div class='admin_div'>
      <a  class='login'>".$_SESSION['username']." ▼</a>
   <div class='admin_options'>
-  <li class='admin_opt'><a href='dashboard.php' class='admin_a'>Dashboard</a></li><br>
+  <li class='admin_opt'><a href='controlpanel.php' class='admin_a'>Control panel</a></li><br>
   
   <li class='admin_opt'><form method='post' action='logout.php'><input class='l_outbtn' type='submit' value='Log out'></form></li> 
   </div>";
@@ -29,7 +29,7 @@ else if(isset($_SESSION['username']) && ($_SESSION['userty'])=='employee'){
        echo "<div class='admin_div'>
         <a  class='login'>".$_SESSION['username']." ▼</a>
      <div class='admin_options'>
-     <li class='admin_opt'><a href='dashboard.php' class='admin_a'>Dashboard</a></li><br>
+     <li class='admin_opt'><a href='controlpanel.php' class='admin_a'>Control panel</a></li><br>
      <li class='admin_opt'><a href='employees.php' class='admin_a'>Employees</a></li><br>
      <li class='admin_opt'><form method='post' action='logout.php'><input class='l_outbtn' type='submit' value='Log out'></form></li> 
      </div>";
