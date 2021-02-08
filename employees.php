@@ -109,6 +109,17 @@ var name=object.id;
     font-size:15px;
     margin-left:35%;
 }
+                                 
+                                   #gtd{
+
+                background-color:white;
+                border:1px solid black;
+                text-shadow:none;
+                color:black;
+                padding:10px;
+                border-radius:10px;
+
+        }
 
         td{
             background-color:gray;
@@ -147,6 +158,7 @@ var name=object.id;
 
 
     </ul>
+                                 <a href='controlpanel.php' id='gtd'>Go to control panel</a>
 <div class="emp_wrap"><div style="width:70%"> 
     <?php employees_list();?></div>
 
