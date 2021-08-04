@@ -13,4 +13,4 @@ JavaScript,
 PHP,
 MariaDB(SQL)
 
-http://pizza-town.great-site.net/index.php
+http://pizza-demo.42web.io/
